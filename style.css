@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: #eee;
+}
+
+header{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00ffd0;
+}
+
+h1{
+    text-shadow: 3px 2px 1px #1c1b1b ;
+    color: #359ffb;
+    font-size: 6vw;
+    font-style: italic;
+}
+
+main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#00ffd0,#00ffd0,#1e1efa,#1e1efa)
+}
+
+#containerInput{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00ffd0;
+    padding-bottom: 2vw;
+}
+
+input{
+    width: 45%;
+    height: 22%;
+    padding: 10px;
+    text-align: center;
+    font-style: oblique;
+    font-size: 1.5vw;
+    border-radius: 1vw;
+    border: double 2.2px #098fef;
+    color: #0abb9b;
+    background: radial-gradient(white,#c6f8ed,#54f4d7);
+}
+
+#containerGif{
+    width: 90%;
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 1vw;
+}
+
+.card{
+    width: 15%;
+    height: 55%;
+    padding: 20px;
+}
+
+.gifImg{
+    width: 100%;
+    height: 100%;
+    border-radius: 1vw;
+    border: 1px solid #bbbbbb;
+}
